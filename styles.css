@@ -6,7 +6,7 @@ body {
     color: #555;
 }
 
-.cart-container {
+.container {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
