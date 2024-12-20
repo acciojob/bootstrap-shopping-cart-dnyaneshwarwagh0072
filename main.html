@@ -7,7 +7,72 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <h2 class="title">Shopping cart</h2>
+    <div class="cart-container">
+        <div class="cart-items">
+            <!-- First item -->
+            <div class="cart-item">
+                <img src="https://th.bing.com/th/id/OIP.z5z5bdgd6BcF6klSstHByAHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=2"
+                    alt="Product Image">
+                <div class="item-details">
+                    <a href="#" class="item-name">I am very sorry</a>
+                    <p>Display: 5 inches</p>
+                    <p>RAM: 4GB</p>
+                    <p>Memory: 32GB</p>
+                </div>
+                <div class="quantity">
+                    <label for="qty1">Quantity:</label>
+                    <input type="number" id="qty1" class="qty-input" value="0" min="0">
+                </div>
+                <div class="price">$120</div>
+            </div>
+
+            <!-- Second item -->
+            <div class="cart-item">
+                <img src="https://th.bing.com/th/id/OIP.z5z5bdgd6BcF6klSstHByAHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=2"
+                    alt="Product Image">
+                <div class="item-details">
+                    <a href="#" class="item-name">I am very sorry</a>
+                    <p>Display: 5 inches</p>
+                    <p>RAM: 4GB</p>
+                    <p>Memory: 32GB</p>
+                </div>
+                <div class="quantity">
+                    <label for="qty2">Quantity:</label>
+                    <input type="number" id="qty2" class="qty-input" value="1" min="0">
+                </div>
+                <div class="price">$120</div>
+            </div>
+
+            <!-- Third item -->
+            <div class="cart-item">
+                <img src="https://th.bing.com/th/id/OIP.z5z5bdgd6BcF6klSstHByAHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=2"
+                    alt="Product Image">
+                <div class="item-details">
+                    <a href="#" class="item-name">I am very sorry</a>
+                    <p>Display: 5 inches</p>
+                    <p>RAM: 4GB</p>
+                    <p>Memory: 32GB</p>
+                </div>
+                <div class="quantity">
+                    <label for="qty3">Quantity:</label>
+                    <input type="number" id="qty3" class="qty-input" value="1" min="0">
+                </div>
+                <div class="price">$120</div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3>Summary</h3>
+            <div class="summary-details">
+                <p>Subtotal <span id="subtotal">$360</span></p>
+                <p>Discount <span>$0</span></p>
+                <p>Shipping <span>$0</span></p>
+                <p class="total">Total <span id="total">$360</span></p>
+            </div>
+            <button class="checkout-btn">checkout</button>
+        </div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
